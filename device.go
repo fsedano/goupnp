@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/huin/goupnp/scpd"
-	"github.com/huin/goupnp/soap"
+	"github.com/fsedano/goupnp/scpd"
+	"github.com/fsedano/goupnp/soap"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/huin/goupnp/v2alpha/description/typedesc"
+	"github.com/fsedano/goupnp/v2alpha/description/typedesc"
 )
 
 // TypeMap returns the builtin type map description.

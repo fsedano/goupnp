@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/huin/goupnp/v2alpha/description/xmlsrvdesc"
+	"github.com/fsedano/goupnp/v2alpha/description/xmlsrvdesc"
 )
 
 var (

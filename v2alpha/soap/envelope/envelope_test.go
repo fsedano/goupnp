@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/fsedano/goupnp/v2alpha/soap/types"
 	"github.com/google/go-cmp/cmp"
-	"github.com/huin/goupnp/v2alpha/soap/types"
 )
 
 type testStructArgs struct {

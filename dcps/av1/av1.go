@@ -15,8 +15,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/huin/goupnp"
-	"github.com/huin/goupnp/soap"
+	"github.com/fsedano/goupnp"
+	"github.com/fsedano/goupnp/soap"
 )
 
 // Hack to avoid Go complaining if time isn't used.

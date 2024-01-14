@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/huin/goupnp/v2alpha/soap"
-	"github.com/huin/goupnp/v2alpha/soap/envelope"
+	"github.com/fsedano/goupnp/v2alpha/soap"
+	"github.com/fsedano/goupnp/v2alpha/soap/envelope"
 )
 
 const serviceType = "fake:service:type"

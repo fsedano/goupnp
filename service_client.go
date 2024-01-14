@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/huin/goupnp/soap"
+	"github.com/fsedano/goupnp/soap"
 )
 
 // ServiceClient is a SOAP client, root device and the service for the SOAP

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/huin/goupnp"
-	"github.com/huin/goupnp/scpd"
-	"github.com/huin/goupnp/soap"
+	"github.com/fsedano/goupnp"
+	"github.com/fsedano/goupnp/scpd"
+	"github.com/fsedano/goupnp/soap"
 )
 
 // DCP collects together information about a UPnP Device Control Protocol.

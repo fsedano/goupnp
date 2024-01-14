@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/huin/goupnp"
-	"github.com/huin/goupnp/dcps/internetgateway1"
-	"github.com/huin/goupnp/dcps/internetgateway2"
+	"github.com/fsedano/goupnp"
+	"github.com/fsedano/goupnp/dcps/internetgateway1"
+	"github.com/fsedano/goupnp/dcps/internetgateway2"
 )
 
 // Use discovered WANPPPConnection1 services to find external IP addresses.

@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/huin/goupnp/v2alpha/soap"
-	"github.com/huin/goupnp/v2alpha/soap/envelope"
+	"github.com/fsedano/goupnp/v2alpha/soap"
+	"github.com/fsedano/goupnp/v2alpha/soap/envelope"
 )
 
 var (

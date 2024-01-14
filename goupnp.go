@@ -1,11 +1,11 @@
 // goupnp is an implementation of a client for various UPnP services.
 //
 // For most uses, it is recommended to use the code-generated packages under
-// github.com/huin/goupnp/dcps. Example use is shown at
-// http://godoc.org/github.com/huin/goupnp/example
+// github.com/fsedano/goupnp/dcps. Example use is shown at
+// http://godoc.org/github.com/fsedano/goupnp/example
 //
 // A commonly used client is internetgateway1.WANPPPConnection1:
-// http://godoc.org/github.com/huin/goupnp/dcps/internetgateway1#WANPPPConnection1
+// http://godoc.org/github.com/fsedano/goupnp/dcps/internetgateway1#WANPPPConnection1
 //
 // Currently only a couple of schemas have code generated for them from the
 // UPnP example XML specifications. Not all methods will work on these clients,
@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/huin/goupnp/httpu"
-	"github.com/huin/goupnp/ssdp"
+	"github.com/fsedano/goupnp/httpu"
+	"github.com/fsedano/goupnp/ssdp"
 )
 
 // ContextError is an error that wraps an error with some context information.
@@ -57,6 +57,9 @@ type MaybeRootDevice struct {
 	// Identifier of the device. Note that this in combination with Location
 	// uniquely identifies a result from DiscoverDevices.
 	USN string
+
+	// Server as announced
+	Server string
 
 	// Set iff Err == nil.
 	Root *RootDevice

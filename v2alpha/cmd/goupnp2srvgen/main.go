@@ -17,15 +17,15 @@ import (
 	"text/template"
 
 	"github.com/BurntSushi/toml"
-	"github.com/huin/goupnp/v2alpha/cmd/goupnp2srvgen/tmplfuncs"
-	"github.com/huin/goupnp/v2alpha/cmd/goupnp2srvgen/zipread"
-	"github.com/huin/goupnp/v2alpha/description/srvdesc"
-	"github.com/huin/goupnp/v2alpha/description/typedesc"
-	"github.com/huin/goupnp/v2alpha/description/xmlsrvdesc"
-	"github.com/huin/goupnp/v2alpha/soap"
+	"github.com/fsedano/goupnp/v2alpha/cmd/goupnp2srvgen/tmplfuncs"
+	"github.com/fsedano/goupnp/v2alpha/cmd/goupnp2srvgen/zipread"
+	"github.com/fsedano/goupnp/v2alpha/description/srvdesc"
+	"github.com/fsedano/goupnp/v2alpha/description/typedesc"
+	"github.com/fsedano/goupnp/v2alpha/description/xmlsrvdesc"
+	"github.com/fsedano/goupnp/v2alpha/soap"
 	"golang.org/x/exp/maps"
 
-	soaptypes "github.com/huin/goupnp/v2alpha/soap/types"
+	soaptypes "github.com/fsedano/goupnp/v2alpha/soap/types"
 )
 
 var (
